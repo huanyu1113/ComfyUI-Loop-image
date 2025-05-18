@@ -345,7 +345,7 @@ class SingleImageLoopOpen:
         inputs = {
             "required": {
                 "image": ("IMAGE",),
-                "max_iterations": ("INT", {"default": 5, "min": 1, "max": 100}),
+                "max_iterations": ("INT", {"default": 5, "min": 1, "max": 10000}),
             },
             "optional": {
                 "mask": ("MASK",),
